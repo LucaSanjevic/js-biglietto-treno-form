@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+body {
+    background-color: rgb(94, 2, 55);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+color {
+    color: rgb(94, 2, 55)
+}
+
+h4 {
+    text-align: center;
+}
+.white {
+    background-color: white;
+    width: 80%;
+}
+
+.testo {
+    border-color: rgb(94, 2, 55);
+    width: 150px;
+    background-color: white;
+    margin-top: 5px;
+    padding: 3px;
+}
+
+.bottone {
+    color: rgb(94, 2, 55);
+    background-color: gray;
+    font-size: large;
+    background-color: gray;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.width33 {
+    width: 33%;
+    margin-top: 15px;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.margin {
+    margin: auto;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.lista {
+    border-color: rgb(94, 2, 55);
+    margin-top: 5px;
+}
+
+.width95 {
+    width: 95%;
+    margin: auto;
+}
+
+.riquadro1 {
+    background-color: rgb(68, 68, 68);
+    width: 25%;
+    height: 200px;
+    float: left;
+    }
+
+.riquadro2 {
+    width: 20%;
+    float: left;
+}
+
+.riquadro3 {
+    width: 25%;
+    float: left;
+}
+
+.riquadro4 {
+    width: 15%;
+    float: left;
+}
+
+.riquadro5 {
+    width: 15%;
+    float: left;
+}
+
+.margintop20 {
+    margin-top: 25px;
+}
+
+.margintop15 {
+    margin-top: 15px;
+}
+
+.margintop50px {
+    margin-top: 50px;
+}
+
+.margintop60px {
+    margin-top: 60px;
+}
+
+.marginbottom15 {
+    padding-bottom: 15px;
+}
+
+.paddingtop15 {
+padding-top: 15px;
+}
+
+.clearfix {
+    display: table;
+    clear: both;
+    content: "";
+}

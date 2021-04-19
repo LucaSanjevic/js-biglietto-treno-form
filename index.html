@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2> CALCOLA IL PREZZO DEL BIGLIETTO</h2>
+    <div class="primo_blocco white margin">
+        <div class="width80 margin">
+
+            <div class="width33 inline-block center">
+                <h4>Nome Cognome</h4>
+                <input type="text" class="testo" id="NomeCognome">
+            </div>
+
+            <div class="width33 inline-block center">
+                <h4>Km da percorrere</h4>
+                <input type="text" class="testo" id="kmTragitto">
+            </div>
+
+            <div class="width33 inline-block center">
+                <h4>Fascia d'età</h4>
+                <select name="" class="lista" id="eta">
+                    <option value="minorenni">Minorenni</option>
+                    <option value="18-65">18-65</option>
+                    <option value="Over 65">Over 65</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="center">
+            <input type="button" value="Genera" class="bottone" id="btn">
+            <input type="button" value="Annulla" class="bottone" id="btn2">
+            </div>
+        </div>
+
+    </div>
+    <h2>IL TUO BIGLIETTO</h2>
+    <div class="white margin">
+        <div class="width95">
+        <h3 class="paddingtop15">DETTAGLIO PASSEGGERI</h3>
+        <hr>
+        <div class="riquadro1">
+            <h3>NOME <br> PASSEGGERO</h3>
+            <h3 id="nomeCognome2"></h3>
+        </div>
+        <div class="riquadro2">
+            <h3 class="margintop20">Offerta</h3>
+            <p class="margintop60px" id="offerta2"></p>
+        </div>
+        <div class="riquadro3">
+            <h3  class="margintop20">Carrozza</h3>
+            <p class="margintop60px" id="carrozza2"></p>
+        </div>
+        <div class="riquadro4">
+            <h3 class="margintop15">Codice <br> CP</h3>
+            <p class="margintop50px" id="codice2"></p>
+        </div>
+        <div class="riquadro5">
+            <h3 class="margintop15">Costo <br> Biglietto</h3>
+            <p class="margintop50px" id="costo_biglietto"></p>
+        </div>
+        <div class="clearfix"></div>
+        <hr class="marginbottom15">
+    </div>
+</div>
+    <script src="myScript.js"></script>
+</body>
+</html>
